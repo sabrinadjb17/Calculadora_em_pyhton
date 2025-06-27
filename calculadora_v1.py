@@ -3,10 +3,9 @@ print('Bem-vindo a Calculadora em Python!')
 print('Qual operação deseja utilizar?\n 1.(+) Soma\n 2.(-) Subtração\n 3.(*) Multiplicação\n 4.(/) Divisão\n 5.(**) Potência\n 6.(√) Raiz Quadrada ')
 operacao = input('Digite o número da operação: ')
 
-# Verifica se é raiz quadrada (opção 6)
 if operacao == '6':
     num1 = float(input('Digite o número: '))
-    num2 = None  # só para manter a variável criada, mas não usada
+    num2 = None  
 else:
     num1 = float(input('Qual é o seu primeiro número? '))
     num2 = float(input('Qual é o seu segundo número? '))
